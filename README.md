@@ -4,17 +4,28 @@
 
 This project introduces a novel approach to healthcare summarization that focuses on generating summaries from multiple perspectives. By leveraging advanced language models and custom energy-based loss functions, the model can generate context-aware summaries that capture different viewpoints in medical information.
 
+## Dataset Description
+
+This project leverages the **PUMA (Perspective sUMmarization dAtaset)** — a perspective-aware summary-annotated corpus built within the healthcare domain.
+
+- 🧵 **3,167 Community Question-Answering (CQA) threads**
+- 💬 **~10,000 answers** across these threads
+- 🗂 **Each answer is manually annotated with five possible perspectives:**
+  - Cause
+  - Suggestion
+  - Experience
+  - Question
+  - Information
+- ✍️ **Each thread includes at most five manually written summaries**, one per perspective, offering a rich multi-view summarization ground truth.
+
+**Note:** The PUMA dataset was provided for research purposes and was not created by us. All annotations and summaries were originally developed by the dataset authors as part of their published work.
+
 ## Key Features
 
 - 🏥 **Perspective-aware summarization**
 - 🤖 **Uses BART with LoRA for efficient fine-tuning**
 - 📊 **Custom energy-based loss function**
-- **Supports multiple perspectives:**
-  - Information
-  - Suggestion
-  - Experience
-  - Cause
-  - Question
+- **Supports multiple perspectives.
 
 ## Model Architecture
 
