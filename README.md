@@ -9,7 +9,7 @@ This project introduces a novel approach to healthcare summarization that focuse
 - 🏥 **Perspective-aware summarization**
 - 🤖 **Uses BART with LoRA for efficient fine-tuning**
 - 📊 **Custom energy-based loss function**
-- 🧠 **Supports multiple perspectives:**
+- **Supports multiple perspectives:**
   - Information
   - Suggestion
   - Experience
