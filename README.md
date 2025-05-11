@@ -71,3 +71,13 @@ We evaluated the model using several standard NLP metrics:
 - High BERTScore indicates strong semantic alignment with reference summaries.
 - Moderate ROUGE scores reflect the challenge of abstractive summarization in medical domains.
 - METEOR score suggests good semantic preservation.
+
+## 🔗 Download Checkpoints
+
+The pre-trained model checkpoints for both the **Perspective Classifier** and **Summarizer** are available in the shared folder below:
+
+📁 [Download Checkpoints from Google Drive](https://drive.google.com/drive/folders/14Y0lc66_MBugzhaoIF3PVm7P054xbbbx)
+
+> This includes all saved models and necessary files required to reproduce the evaluation results.
+
+
